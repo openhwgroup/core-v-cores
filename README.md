@@ -1,5 +1,5 @@
 # core-v-cores
-CORE-V Family of RISC-V Cores
+CORE-V Family of Open Source RISC-V Cores
 
 Here are the links to the OpenHW Group CORE-V Family of RISC-V cores:
 
