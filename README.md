@@ -1,10 +1,10 @@
 # core-v-cores
-CORE-V Core IPs family
+CORE-V Family of RISC-V Cores
 
-Here you can find the OpenHW Group CORE-V RISC-V IPs links:
+Here are the links to the OpenHW Group CORE-V Family of RISC-V cores:
 
 [CV32E40P](https://github.com/pulp-platform/riscv)
 
 [CV64A](https://github.com/pulp-platform/ariane)
 
-These repositories are about to be move to the openhwgroup github page.
+These repositories are currently located in the PULP Platform github reposiotries and will be moved to the openhwgroup github repositories in the coming weeks.
