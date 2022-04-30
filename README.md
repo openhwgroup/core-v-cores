@@ -4,6 +4,8 @@
 
 CORE-V is a family of permisively licensed, open-source RISC-V cores currated by the OpenHW Group ecosystems. Below is the CORE-V Roadmap of Application class and Embedded class cores followed by a short description of each of the cores and links to their respective GitHub repositories.  The overall CORE-V Roadmap as well as core specific features and functionality are driven by [members of the OpenHW Group](https://www.openhwgroup.org/#members-partners). Details regarding [OpenHW Group membership can be found here.](https://www.openhwgroup.org/membership/#tab-membership)
 
+<img src="https://github.com/openhwgroup/core-v-docs/blob/master/docs/images/CORE-V_Roadmap_April_2022.png" align="center" />
+
 # CORE-V Application 5/6 Stage Cores
 
 [CVA6](https://github.com/openhwgroup/cva6) Originally known as the PULP Ariane core, the CORE-V CVA6 6-stage, single issue, in-order core implementing RV32GC or RV64GC extensions with three privilege levels M, S, U to fully support a Unix-like (Linux, BSD, etc.) operating system. It has configurable size, separate TLBs, a hardware PTW and branch-prediction (branch target buffer, branch history table and a return address stack).
