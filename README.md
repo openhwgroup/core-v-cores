@@ -6,13 +6,13 @@ CORE-V is a family of permisively licensed, open-source RISC-V cores currated by
 
 <img src="https://github.com/openhwgroup/core-v-docs/blob/master/docs/images/CORE-V_Roadmap_April_2022.png" align="center" />
 
-# CORE-V Application 5/6 Stage Cores
+# CORE-V Application Class, 5/6-Stage Cores
 
 [CVA6](https://github.com/openhwgroup/cva6) Originally known as the PULP Ariane core, the CORE-V CVA6 6-stage, single issue, in-order core implementing RV32GC or RV64GC extensions with three privilege levels M, S, U to fully support a Unix-like (Linux, BSD, etc.) operating system. It has configurable size, separate TLBs, a hardware PTW and branch-prediction (branch target buffer, branch history table and a return address stack).
 
 [CVA5](https://github.com/openhwgroup/cva5) The CVA5 is a 32-bit RISC-V processor designed for FPGAs supporting the Multiply/Divide and Atomic extensions (RV32IMA). The processor is written in SystemVerilog and has been designed to be both highly extensible and highly configurable. The CVA5 is derived from the Taiga Project from Simon Fraser University. The pipeline has been designed to support parallel, variable-latency execution units and to readily support the inclusion of new execution units.
 
-# CORE-V Embbeded Class 4 Stage Cores
+# CORE-V Embedded Class, 4-Stage Cores
 
 CVE4 is a family of cores for embedded platforms that started from the PULP RI5CY core. These cores are 32bit, 4-stage in-order cores. Single configurations of these cores are maintained on different repositories and specialize in different embedded applications. Please find below the members of the CVE4 family.
 
@@ -24,6 +24,6 @@ CVE4 is a family of cores for embedded platforms that started from the PULP RI5C
 
 - [CV32E41P](https://github.com/openhwgroup/cv32e41p) is a small and efficient, 32-bit, in-order RISC-V core with a 4-stage pipeline that implements the RV32IM[F,Zfinx]C[Zce] instruction set architecture, and the Xpulp custom extensions for achieving higher code density, performance, and energy efficiency. It started its life as a fork of the CV32E40P core to implement the official RISC-V Zfinx and Zce ISA extensions.
 
-# CORE-V Embedded Class 2 Stage Core
+# CORE-V Embedded Class, 2-Stage Core
 
 [CVE2](https://github.com/openhwgroup/cve2) is a low-cost, low-power, 32-bit, in-order RISC-V core with a 2-stage pipeline that implements RV32{E, I}[M]C instruction set architecture for achieving high-energy efficiency on control-oriented, computationally limited applications. It started its life as a fork of the lowRISC Ibex core and it will be shirked down to its essential components.
