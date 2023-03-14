@@ -12,6 +12,12 @@ CORE-V is a family of permisively licensed, open-source RISC-V cores currated by
 
 [CVA5](https://github.com/openhwgroup/cva5) The CVA5 is a 32-bit RISC-V processor designed for FPGAs supporting the Multiply/Divide and Atomic extensions (RV32IMA). The processor is written in SystemVerilog and has been designed to be both highly extensible and highly configurable. The CVA5 is derived from the Taiga Project from Simon Fraser University. The pipeline has been designed to support parallel, variable-latency execution units and to readily support the inclusion of new execution units.
 
+# CORE-V Wally Education-Targeted, 5-Stage Cores 
+
+[CVW](https://github.com/openhwgroup/cvw) CORE-V Wally is a set of 32-bit and 64-bit RISC-V cores that implement RV32I, RV32E, and RV64I with a 5-stage pipeline, support for A, C, D, F, and M extensions, and optional caches, branch
+prediction, virtual memory, AHB, RAMs, and peripherals. Wally is targeted at Education and will be accompanied by an engineering textbook and course on computer architecture.
+
+
 # CORE-V Embedded Class, 4-Stage Cores
 
 CVE4 is a family of cores for embedded platforms that started from the PULP RI5CY core. These cores are 32bit, 4-stage in-order cores. Single configurations of these cores are maintained on different repositories and specialize in different embedded applications. Please find below the members of the CVE4 family.
