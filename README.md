@@ -4,7 +4,7 @@
 
 CORE-V is a family of permisively licensed, open-source RISC-V cores currated by the OpenHW Group ecosystems. Below is the CORE-V Roadmap of Application class and Embedded class cores followed by a short description of each of the cores and links to their respective GitHub repositories.  The overall CORE-V Roadmap as well as core specific features and functionality are driven by [members of the OpenHW Group](https://www.openhwgroup.org/#members-partners). Details regarding [OpenHW Group membership can be found here.](https://www.openhwgroup.org/membership/#tab-membership)
 
-<img src="https://github.com/openhwgroup/core-v-cores/blob/master/CORE-V-Cores-PNG-March2023.png" align="center" />
+<img src="https://github.com/openhwgroup/core-v-cores/blob/master/core_v_cores_roadmap_2023.png" align="center" />
 
 # CORE-V Application Class, 5/6-Stage Cores
 
