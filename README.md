@@ -2,9 +2,10 @@
 
 # CORE-V Family of Open-Source RISC-V Cores
 
-CORE-V is a family of permisively licensed, open-source RISC-V cores currated by the OpenHW Group ecosystems. Below is the CORE-V Roadmap of Application class and Embedded class cores followed by a short description of each of the cores and links to their respective GitHub repositories.  The overall CORE-V Roadmap as well as core specific features and functionality are driven by [members of the OpenHW Group](https://www.openhwgroup.org/#members-partners). Details regarding [OpenHW Group membership can be found here.](https://www.openhwgroup.org/membership/#tab-membership)
+CORE-V is a family of permissively licensed, open-source RISC-V cores currated by the OpenHW Group ecosystem. Below is the CORE-V Roadmap of Application class and Embedded class cores followed by a short description of each of the cores and links to their respective GitHub repositories.  The overall CORE-V Roadmap as well as core specific features and functionality are driven by [members of the OpenHW Group](https://www.openhwgroup.org/#members-partners). Details regarding [OpenHW Group membership can be found here.](https://www.openhwgroup.org/membership/#tab-membership). The full [OpenHW Project Dashboard](https://github.com/openhwgroup/programs/blob/master/dashboard/Dashboard_SpreadSheetFriendly.md) provides more details about OpenHW projects.
 
-<img src="https://github.com/openhwgroup/core-v-cores/blob/master/core_v_cores_roadmap_2023.png" align="center" />
+<img src="https://github.com/openhwgroup/core-v-cores/blob/master/CV-CORES-Roadmap_2023-03-14.png" align="center" />
+
 
 # CORE-V Application Class, 5/6-Stage Cores
 
@@ -24,10 +25,10 @@ CVE4 is a family of cores for embedded platforms that started from the PULP RI5C
 
 - [CV32E40X](https://github.com/openhwgroup/cv32e40x) The CORE-V CV32E40X is a small and efficient, 32-bit, in-order RISC-V core with a 4-stage pipeline that implements the RV32[I,E][M|Zmmul][A]Zca_Zcb_Zcmp_Zcmt[Zba_Zbb_Zbs|Zba_Zbb_Zbc_Zbs]ZicntrZihpmZicsrZifencei[X] instruction set architecture. The CV32E40X core is aimed at compute intensive applications and offers a general purpose extension interface [CORE-V-XIF](https://github.com/openhwgroup/core-v-xif) by which custom instructions can be added external to the core.
 
-- [CV32E40S](https://github.com/openhwgroup/cv32e40s) The CORE-V CV32E40S is a small and efficient, 32-bit, in-order RISC-V core with a 4-stage pipeline that implements the RV32[I|E][M|Zmmul]Zca_Zcb_Zcmp_Zcmt[Zba_Zbb_Zbs|Zba_Zbb_Zbc_Zbs]ZicsrZifenceiXsecure instruction set architecture. The CV32E40S core is aimed at security applications and offers both Machine mode and User mode, an enhanced PMP, as well as various anti-tampering features.
+- [CV32E40S](https://github.com/openhwgroup/cv32e40s) The CORE-V CV32E40S is a small and efficient, 32-bit, in-order RISC-V core with a 4-stage pipeline that implements the RV32[I|E][M|Zmmul]Zca_Zcb_Zcmp_Zcmt[Zba_Zbb_Zbs|Zba_Zbb_Zbc_Zbs]ZicsrZifenceiXsecure instruction set architecture. The CV32E40S core is aimed at security applications and offers both Machine mode and User mode, an enhanced PMP, and various anti-tampering features.
 
-- [CV32E41P](https://github.com/openhwgroup/cv32e41p) is a small and efficient, 32-bit, in-order RISC-V core with a 4-stage pipeline that implements the RV32IM[F,Zfinx]C[Zce] instruction set architecture, and the Xpulp custom extensions for achieving higher code density, performance, and energy efficiency. It started its life as a fork of the CV32E40P core to implement the official RISC-V Zfinx and Zce ISA extensions.
+- [CV32E41P](https://github.com/openhwgroup/cv32e41p) is a small and efficient, 32-bit, in-order RISC-V core with a 4-stage pipeline that implements the RV32IM[F,Zfinx]C[Zce] instruction set architecture, and the Xpulp custom extensions for achieving higher code density, performance, and energy efficiency. Starting as a fork of the CV32E40P core, the E41P then implemented the official RISC-V Zfinx and Zce ISA extensions.
 
 # CORE-V Embedded Class, 2-Stage Core
 
-[CVE2](https://github.com/openhwgroup/cve2) is a low-cost, low-power, 32-bit, in-order RISC-V core with a 2-stage pipeline that implements RV32[E|I][M]C instruction set architecture for achieving high-energy efficiency on control-oriented, computationally limited applications. It started its life as a fork of the lowRISC Ibex core and it will be shirked down to its essential components and verified at industrial-grade.
+[CVE2](https://github.com/openhwgroup/cve2) is a low-complexity, low-power, 32-bit, in-order RISC-V core with a 2-stage pipeline that implements RV32[E|I][M]C instruction set architecture for achieving high-energy efficiency on control-oriented, computationally limited applications. Starting as a fork of the lowRISC Ibex core, the CVE2 will be pared back to essential components and verified at industrial-grade.
