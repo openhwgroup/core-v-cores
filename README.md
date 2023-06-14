@@ -9,10 +9,9 @@ CORE-V is a family of permissively licensed, open-source RISC-V cores currated b
 
 # CORE-V Application Class, 5/6-Stage Cores
 
-Originally known as the PULP Ariane core, the CORE-V CVA6 is a family of 6-stage, single issue, in-order cores implementing RV32GC or RV64GC extensions with three privilege levels M, S, U to fully support a Unix-like (Linux, BSD, etc.) operating system. CVA6 has configurable size, separate TLBs, a hardware PTW and branch-prediction (branch target buffer, branch history table and a return address stack).
+[CVA6](https://github.com/openhwgroup/cva6), originally known as the PULP Ariane core, is a family of 6-stage, single issue, in-order cores implementing RV32GC or RV64GC extensions with three privilege levels M, S, U to fully support a Unix-like (Linux, BSD, etc.) operating system. CVA6 has configurable size, separate TLBs, a hardware PTW and branch-prediction (branch target buffer, branch history table and a return address stack).
 
-- [CV32A60X](https://github.com/openhwgroup/cva6) CV32A60X is the first configuration of CVA6, supporting RV32IMCA with CV-X-IF support, and targeting TRL4 in 2023.
-
+- [CV32A60X](https://github.com/openhwgroup/cva6/tree/cv32a6_v5.0.0) is the first verified configuration of CVA6, supporting RV32IMCA and the [CORE-V eXtension Interface](https://github.com/openhwgroup/core-v-xif).  The CV32A60X is targeting TRL4 in Q4 2023.
 
 [CVA5](https://github.com/openhwgroup/cva5) The CVA5 is a 32-bit RISC-V processor designed for FPGAs supporting the Multiply/Divide and Atomic extensions (RV32IMA). The processor is written in SystemVerilog and has been designed to be both highly extensible and highly configurable. The CVA5 is derived from the Taiga Project from Simon Fraser University. The pipeline has been designed to support parallel, variable-latency execution units and to readily support the inclusion of new execution units.
 
