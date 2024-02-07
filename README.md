@@ -6,7 +6,7 @@ CORE-V is a family of permissively licensed, open-source RISC-V cores curated by
 
 <!-- <img src="https://github.com/openhwgroup/core-v-cores/blob/master/CV-CORES-Roadmap_2023-04-09.png" align="center" /> -->
 
-<img src="https://github.com/openhwgroup/core-v-cores/blob/master/OpenHW-CoresTimeline-Feb2024.png" align="center"           
+<img src="https://github.com/openhwgroup/core-v-cores/blob/master/OpenHW-CoresTimeline-Feb2024.png" align="center" />          
 
 # CORE-V CVA6 Family, 6-Stage Cores configurable as Embedded or Application Class
 
