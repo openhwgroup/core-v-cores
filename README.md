@@ -8,6 +8,9 @@ CORE-V is a family of permissively licensed, open-source RISC-V cores curated by
 
 <img src="https://github.com/openhwgroup/core-v-cores/blob/master/OpenHW-CoresTimeline-Feb2024.png" align="center" />          
 
+<img src="https://github.com/openhwgroup/core-v-cores/blob/master/OpenHW-CoresTimeline-Feb2024_wider.png" align="center" />          
+
+
 # CORE-V CVA6 Family, 6-Stage Cores configurable as Embedded or Application Class
 
 [CVA6](https://github.com/openhwgroup/cva6), originally known as the PULP Ariane core, is a family of 6-stage, single issue, in-order cores implementing RV32GC or RV64GC extensions with three privilege levels M, S, U to fully support a Unix-like (Linux, BSD, etc.) operating system. CVA6 has configurable size, separate TLBs, a hardware PTW and branch-prediction (branch target buffer, branch history table and a return address stack).
