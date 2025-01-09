@@ -68,4 +68,6 @@ The Table below summarizes the "ID" values for the CORE-V cores that have been a
 <br><br>
 [1] The CV32E40Pv2 is very close to TRL-5 and work is on-going.  Please reach out to a member of OpenHW for more information.
 <br>
-[2] The CV32E41P was developed as a proof-of-concept for the bit-manip ISA.  It is not intended to be used in a Production device.
+[2] These devices are mature, but not in active development towards their TRL Goal.
+<br>
+[3] The CV32E41P was developed as a proof-of-concept for the bit-manip ISA.  It is not intended to be used in a Production device.
