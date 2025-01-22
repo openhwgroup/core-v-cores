@@ -31,7 +31,7 @@ CVE4 is a family of 32-bit, 4-stage in-order cores for embedded platforms that s
 - [CV32E40S](https://github.com/openhwgroup/cv32e40s) The CORE-V CV32E40S is a small and efficient, 32-bit, in-order RISC-V core with a 4-stage pipeline that implements the RV32[I|E][M|Zmmul]Zca_Zcb_Zcmp_Zcmt[Zba_Zbb_Zbs|Zba_Zbb_Zbc_Zbs]ZicsrZifenceiXsecure instruction set architecture. The CV32E40S core is aimed at security applications and offers both Machine mode and User mode, an enhanced PMP, and various anti-tampering features.
 - [CV32E40X](https://github.com/openhwgroup/cv32e40x) The CORE-V CV32E40X is a small and efficient, 32-bit, in-order RISC-V core with a 4-stage pipeline that implements the RV32[I,E][M|Zmmul][A]Zca_Zcb_Zcmp_Zcmt[Zba_Zbb_Zbs|Zba_Zbb_Zbc_Zbs]ZicntrZihpmZicsrZifencei[X] instruction set architecture. The CV32E40X core is aimed at compute intensive applications and offers a general purpose extension interface [CORE-V-XIF](https://github.com/openhwgroup/core-v-xif) by which custom instructions can be added external to the core.
 - [CV32E40PX] The CORE-V CV32E40PX adds RVB, RVP, and RVK support plus CV-X-IF support to the CV32E40PV2.  This device is still in the Project Concept phase.
-- [CV32E41P](https://github.com/openhwgroup/cv32e41p) is a small and efficient, 32-bit, in-order RISC-V core with a 4-stage pipeline that implements the RV32IM[F,Zfinx]C[Zce] instruction set architecture, and the Xpulp custom extensions for achieving higher code density, performance, and energy efficiency. Starting as a fork of the CV32E40P core, the E41P then implemented the official RISC-V Zfinx and Zce ISA extensions.
+- [CV32E41P](https://github.com/openhwgroup/cv32e41p) is a small and efficient, 32-bit, in-order RISC-V core with a 4-stage pipeline that implements the RV32IM[F,Zfinx]C[Zce] instruction set architecture, and the Xpulp custom extensions for achieving higher code density, performance, and energy efficiency. Starting as a fork of the CV32E40P core, the E41P then implemented the RISC-V Zfinx and Zce ISA extensions as a prototype to ratify their specification.
 
 
 ## CVE2 Family, 2-Stage Embedded Class Cores
@@ -54,20 +54,20 @@ A unique `marchid` is provided for each device.
 
 The Table below summarizes the "ID" values for the CORE-V cores that have been assigned an architecture ID from RVI:
 
-| CORE-V Name | Release | mvendorid  | marchid    | mimpid     | TRL Goal | TRL Achieved | Comment               |
-| ----------- | ------- | ---------- | ---------- | ---------- | -------- | ------------ | --------------------- |
-| CV32A60X    | TBD     | 0x00000602 | 0x00000003 | 0x00000000 | TRL-5    | Q1, 2025     |                       |
-| CV32E40Pv1  | v1.0.0  | 0x00000602 | 0x00000004 | 0x00000000 | TRL-5    | Yes          |                       |
-| CV32E40Pv2  | v1.8.3  | 0x00000602 | 0x00000004 | 0x00000001 | TRL-5    | No [1]       | Target is v2.0.0      |
-| CV32E40X    | TBD     | 0x00000602 | 0x00000014 | 0x00000000 | TRL-5    | No [2]       |                       |
-| CV32E40S    | TBD     | 0x00000602 | 0x00000015 | 0x00000000 | TRL-5    | No [2]       |                       |
-| CV32E41P    | b5d1ba1 | 0x00000602 | 0x0000001C | 0x00000000 | TRL-3    | Archived [3] | "Release" is git hash |
-| CV32E20     | TBD     | 0x00000602 | 0x00000023 | 0x00000000 | TRL-5    | Q4, 2025     |                       |
-| CVWally     | TBD     | 0x00000602 | 0x00000024 | 0x00000000 | TRL-5    | Q2, 2025     |                       |
+| CORE-V Name | Release | mvendorid  | marchid    | mimpid     | TRL Goal | TRL Achieved | Comment                      |
+| ----------- | ------- | ---------- | ---------- | ---------- | -------- | ------------ | ---------------------------- |
+| CV32A60X    | TBD     | 0x00000602 | 0x00000003 | 0x00000000 | TRL-5    | Q1, 2025     |                              |
+| CV32E40Pv1  | v1.0.0  | 0x00000602 | 0x00000004 | 0x00000000 | TRL-5    | Yes          | F,D,XPULP not verified in v1 |
+| CV32E40Pv2  | v1.8.3  | 0x00000602 | 0x00000004 | 0x00000001 | TRL-5    | No [1]       | Target is v2.0.0             |
+| CV32E40X    | TBD     | 0x00000602 | 0x00000014 | 0x00000000 | TRL-5    | No [2]       |                              |
+| CV32E40S    | TBD     | 0x00000602 | 0x00000015 | 0x00000000 | TRL-5    | No [2]       |                              |
+| CV32E41P    | b5d1ba1 | 0x00000602 | 0x0000001C | 0x00000000 | TRL-3    | Archived [3] | "Release" is git hash        |
+| CV32E20     | TBD     | 0x00000602 | 0x00000023 | 0x00000000 | TRL-5    | Q4, 2025     |                              |
+| CVWally     | TBD     | 0x00000602 | 0x00000024 | 0x00000000 | TRL-5    | Q2, 2025     |                              |
 
 <br><br>
 [1] The CV32E40Pv2 is very close to TRL-5 and work is on-going.  Please reach out to a member of OpenHW for more information.
 <br>
 [2] These devices are mature, but not in active development towards their TRL Goal.
 <br>
-[3] The CV32E41P was developed as a proof-of-concept for the bit-manip ISA.  It is not intended to be used in a Production device.
+[3] The CV32E41P was developed as a proof-of-concept.  It is not intended to be used in a Production device.
