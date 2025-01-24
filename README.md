@@ -13,7 +13,7 @@ CORE-V is a family of permissively licensed, open-source RISC-V cores curated by
 
 # CORE-V Repositories
 ## CVA6 Family, 6-Stage Cores configurable as Embedded or Application Class
-[CVA6](https://github.com/openhwgroup/cva6), originally known as the PULP Ariane core, is a family of 6-stage, single issue, in-order cores implementing RV32IMACF_Zicsr_Zifencei or RV64IMACFD_Zicsr_Zifencei (RV64GC) extensions with three privilege levels M, S, U to fully support a Unix-like (Linux, BSD, etc.) operating system. CVA6 has configurable size, separate TLBs, a hardware PTW and branch-prediction (branch target buffer, branch history table and a return address stack).
+[CVA6](https://github.com/openhwgroup/cva6), originally known as the PULP Ariane core, is a family of 6-stage, single or dual-issue, in-order cores implementing RV32IMACF_Zicsr_Zifencei or RV64IMACFD_Zicsr_Zifencei (RV64GC) extensions with three privilege levels M, S, U to fully support a Unix-like (Linux, BSD, etc.) operating system. CVA6 has configurable size, separate TLBs, a hardware PTW and branch-prediction (branch target buffer, branch history table and a return address stack).
 - [CV32A60AX](https://github.com/openhwgroup/cva6) CV32A60AX is a 32 bit, single-issue application class core supporting RV32IMCA and the [CORE-V eXtension Interface](https://github.com/openhwgroup/core-v-xif) (CV-X-IF).
 - [CV32A60X](https://github.com/openhwgroup/cva6) CV32A60X is a 32 bit, single-issue embedded class core supporting RV32IMCA and CV-X-IF support. This device is targeting TRL5 in early 2025.
 - [CV64A60AX](https://github.com/openhwgroup/cva6) CV64A60AX is a 64 bit, single-issue application class core supporting RV64IMCADF and CV-X-IF support. This device is targeting TRL4 in 2026.
