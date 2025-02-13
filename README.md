@@ -1,4 +1,4 @@
-<img src="https://github.com/MikeOpenHWGroup/core-v-cores/blob/master/images/openhw-landscape.png" align="center" />
+<img src="https://github.com/openhwgroup/core-v-cores/blob/master/images/openhw-landscape.png" align="center" />
 
 # CORE-V Family of Open-Source RISC-V Cores
 
