@@ -1,4 +1,4 @@
-<img src="https://www.openhwfoundation.org/images/openhw-landscape.png" width="418px" height="103px" /> <img src="https://www.openhwfoundation.org/images/core-v-portrait.png" align="right" width="150px" height="120px"/>
+<img src="https://github.com/MikeOpenHWGroup/core-v-cores/blob/master/images/openhw-landscape.png" align="center" />
 
 # CORE-V Family of Open-Source RISC-V Cores
 
