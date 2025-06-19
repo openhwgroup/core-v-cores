@@ -49,7 +49,8 @@ The Table below summarizes the "ID" values for the CORE-V cores that have been a
 
 | CORE-V Name | Release | mvendorid  | marchid    | mimpid     | TRL Goal | TRL Achieved | Comment                      |
 | ----------- | ------- | ---------- | ---------- | ---------- | -------- | ------------ | ---------------------------- |
-| CV32A60X    | TBD     | 0x00000602 | 0x00000003 | 0x00000000 | TRL-5    | Q1, 2025     |                              |
+| CV32A60X    | v6.0.0  | 0x00000602 | 0x00000003 | 0x00000000 | TRL-5    | Yes          |                              |
+| CV64A60AX   | TBD     | 0x00000602 | 0x00000003 | 0x00000001 | TRL-4    |              | In pre-Project Concept phase |
 | CV32E40Pv1  | v1.0.0  | 0x00000602 | 0x00000004 | 0x00000000 | TRL-5    | Yes          | F,D,XPULP not verified in v1 |
 | CV32E40Pv2  | v1.8.3  | 0x00000602 | 0x00000004 | 0x00000001 | TRL-5    | No [1]       | Target is v2.0.0             |
 | CV32E40X    | TBD     | 0x00000602 | 0x00000014 | 0x00000000 | TRL-5    | No [2]       |                              |
