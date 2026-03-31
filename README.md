@@ -49,26 +49,28 @@ The Table below summarizes the "ID" values for the CORE-V cores that have been a
 
 | CORE-V Name | Release | mvendorid  | marchid    | mimpid     | TRL Goal | TRL Achieved | Comment                      |
 | ----------- | ------- | ---------- | ---------- | ---------- | -------- | ------------ | ---------------------------- |
-| CV32A60X    | TBD     | 0x00000602 | 0x00000003 | 0x00000000 | TRL-5    | Q1, 2025     |                              |
-| CV32E40Pv1  | v1.0.0  | 0x00000602 | 0x00000004 | 0x00000000 | TRL-5    | Yes          | F,D,XPULP not verified in v1 |
+| CV32A60X    | v5.3    | 0x00000602 | 0x00000003 | 0x00000000 | TRL-5    | Yes          |                              |
+| CV32E40Pv1  | v1.0.0  | 0x00000602 | 0x00000004 | 0x00000000 | TRL-5    | Yes          | F,XPULP not verified in v1   |
 | CV32E40Pv2  | v1.8.3  | 0x00000602 | 0x00000004 | 0x00000001 | TRL-5    | No [1]       | Target is v2.0.0             |
 | CV32E40X    | TBD     | 0x00000602 | 0x00000014 | 0x00000000 | TRL-5    | No [2]       |                              |
 | CV32E40S    | TBD     | 0x00000602 | 0x00000015 | 0x00000000 | TRL-5    | No [2]       |                              |
 | CV32E41P    | b5d1ba1 | 0x00000602 | 0x0000001C | 0x00000000 | TRL-3    | Archived [3] | "Release" is git hash        |
-| CV32E20     | TBD     | 0x00000602 | 0x00000023 | 0x00000000 | TRL-5    | Q4, 2025     |                              |
-| CVWally     | TBD     | 0x00000602 | 0x00000024 | 0x00000000 | TRL-5    | Q2, 2025     |                              |
+| CV32E20     | TBD     | 0x00000602 | 0x00000023 | 0x00000000 | TRL-5    | Q2, 2026     |                              |
+| CVWally     | TBD     | 0x00000602 | 0x00000024 | 0x00000000 | TRL-5    | Q2, 2026     |                              |
 
+<!--
 ## CORE-V Roadmap
 Below is the CORE-V Roadmap of Application class and Embedded class cores followed by a short description of each of the cores and links to their respective GitHub repositories.
 The overall CORE-V Roadmap as well as core specific features and functionality are driven by [members of the OpenHW Foundation](https://www.openhwgroup.org/#members-partners).
 Details regarding OpenHW [membership](https://www.openhwgroup.org/membership/#tab-membership) can be found here.
 The full [OpenHW Project Dashboard](https://github.com/openhwgroup/programs/blob/master/dashboard/Dashboard_SpreadSheetFriendly.md) provides more details about OpenHW projects.
+-->
 
 <!-- <img src="https://github.com/openhwgroup/core-v-cores/blob/master/CV-CORES-Roadmap_2023-04-09.png" align="center" /> -->
 
 <!-- <img src="https://github.com/openhwgroup/core-v-cores/blob/master/OpenHW-CoresTimeline-Feb2024.png" align="center" /> -->
 
-<img src="https://github.com/openhwgroup/core-v-cores/blob/master/OpenHW-CoresTimeline-Feb2024-wider.png" align="center" />          
+<!-- <img src="https://github.com/openhwgroup/core-v-cores/blob/master/OpenHW-CoresTimeline-Feb2024-wider.png" align="center" /> -->
 
 <br><br>
 [1] The CV32E40Pv2 is very close to TRL-5 and work is on-going.  Please reach out to a member of OpenHW for more information.
